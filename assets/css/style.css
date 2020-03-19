@@ -1,7 +1,6 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: black;
-    --tertiary-color: #b7309b;
+    --primary-color: black;
+    --secondary-color: #b7309b;
 }
   
 * {
@@ -11,7 +10,7 @@
 }
 
 body {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -121,12 +120,12 @@ section {
 /*Need help figuring out how to keep border right aligned between sections*/
 .section-title {
     font-size: 3.4vw;
-    color:var(--secondary-color);
+    color:var(--primary-color);
     text-align: right;
     margin: 0 20px 0 0;
     flex: 1 10%;
     align-items: flex-start;
-    border-right: solid 1vw var(--tertiary-color);
+    border-right: solid 1vw var(--secondary-color);
     padding-right: 15px;
     width: 15%;
 }
@@ -140,7 +139,7 @@ section {
 
 .service-grid-container {
     width: 100%;
-    color:var(--secondary-color);
+    color:var(--primary-color);
     font-size: 1.2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -151,14 +150,23 @@ section {
 
 .service-grid-item {
     width: 100%;
-    background-position: center;
     background-size: cover;
     padding: 15px 0;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.service-grid-item a .grid-text {
+    padding: 10px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.service-grid-item a {
+    text-decoration: none;
+    text-align: left;
 }
 
 .service-grid-item.run-buddy {
@@ -167,12 +175,12 @@ section {
 }
 
 .service-grid-item.horiseon, .service-grid-item.example1, .service-grid-item.example2, .service-grid-item.example3 {
-    min-height: 150px;
+    min-height: 200px;
 }
 
 .service-grid-item.run-buddy {
     background-image: url("../images/run-buddy.PNG");
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .service-grid-item.horiseon {
