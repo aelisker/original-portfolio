@@ -159,6 +159,7 @@ section {
     position: relative;
 }
 
+/*Idea for gradient swap came from https://keithjgrant.com/posts/2017/07/transitioning-gradients/*/
 .service-grid-item::after {
     content: "";
     height: 100%;
