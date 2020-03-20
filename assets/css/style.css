@@ -189,9 +189,10 @@ section {
     transition: 1;
 }
 
-.service-grid-item:hover .grid-text {
+.service-grid-item:hover .grid-text, .active {
     color: aqua;
     transition: 1s;
+    transition-timing-function: ease-out;
 }
 
 .service-grid-item a .grid-text {
