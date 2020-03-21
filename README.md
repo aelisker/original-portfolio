@@ -1,16 +1,14 @@
-# Run Buddy, Inc
+# Personal Portfolio Challenge
 
 ## Purpose
-A website that offers fitness training services. 
-
-## Built With
-* HTML
-* CSS
+Created as a proof of concept portfolio to demonstrate current HTML and CSS skills.
 
 ## Website
-https://aelisker.github.io/run-buddy/
+The actual website can be viewed at the [following link](https://aelisker.github.io/). The code repository can be found at [here](https://github.com/aelisker/aelisker.github.io).
 
-## Contribution
-Made with ❤️ by Aaron
+You can also find a screenshot of the website below:
+![website-screenshot](./assets/images/portfolio-screenshot.png)
 
-### ©️2019 Run Buddy, Inc 
+## Model
+This was modeled off a demo portfolio, shown below:
+![website-screenshot](./assets/images/demo.gif)
