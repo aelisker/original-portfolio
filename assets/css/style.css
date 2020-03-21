@@ -67,7 +67,12 @@ header nav ul li a {
 header nav ul li a:hover {
     color: rgba(0, 0, 0, 1);
     background: white;
+    transition: 1s;
   }
+
+.hover-item {
+transition: .5s ease-in-out;
+}
 
 section {
     padding: 60px 5% 60px 8%;
