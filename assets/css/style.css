@@ -14,6 +14,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/**Header area below**/
 header {
     padding: 20px 5%;
     background-color: black;
@@ -69,15 +70,9 @@ header nav ul li a:hover {
     background: white;
     transition: 1s;
   }
+/**End header**/
 
-.hover-item {
-transition: .5s ease-in-out;
-}
-
-section {
-    padding: 60px 5% 60px 8%;
-}
-
+/**Hero below**/
 .hero {
     background-image: url("../images/station-full.jpg");
     background-size: cover;
@@ -100,6 +95,15 @@ section {
     text-align: right;
 }
 
+/**General section formatting below**/
+section {
+    padding: 60px 5% 60px 8%;
+}
+
+.hover-item {
+    transition: .5s ease-in-out;
+    }
+
 .flex-row {
     display: flex;
     justify-content: space-between;
@@ -118,7 +122,6 @@ section {
     width: 85%;
 }
 
-/*Need help figuring out how to keep border right aligned between sections*/
 .section-title {
     font-size: 1.6em;
     color:var(--primary-color);
@@ -241,8 +244,9 @@ section {
 .service-grid-item.example2 {
     background-image: url("../images/example3.jpg");
 }
+/**End grid**/
 
-/*Why is this not aligning nav in center?*/
+/**Contact below**/
 .contact-info {
     display: flex;
     align-items: center;
@@ -267,8 +271,8 @@ section {
 .contact-info nav ul li a:hover {
     color: white;
     background: black;
-
   }
+/**End contact**/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -307,6 +311,7 @@ section {
         padding: 30px 15px 15px 15px;
     }
 
+    /**Changing font to vw lower than 768px**/
     .hero-subtitle h2 {
         font-size: 6.5vw;
         margin: 0 30px;
@@ -324,6 +329,7 @@ section {
         margin: 0 30px;
     }
 
+    /**Reformatting the section titles from sitting left with right border to sitting top with bottom border**/
     .section-title {
         text-align: center;
         width: 100%;
@@ -345,6 +351,7 @@ section {
         width: 100%;
     }
 
+    /**Changed gird to go two column, text to white for better contrast on mobile**/
     .service-grid-container {
         grid-template-columns: 1fr 1fr;
     }
