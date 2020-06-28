@@ -218,32 +218,32 @@ section {
 .service-grid-item.panel-1 {
     grid-column: 1/3;
     grid-row: 1/3;
+    min-height: 400px;
+    max-height: 500px;
+    background-image: url("../images/tech.JPG");
 }
 
 .service-grid-item.panel-2, .service-grid-item.panel-3, .service-grid-item.panel-4, .service-grid-item.panel-5 {
     min-height: 200px;
-}
-
-.service-grid-item.panel-1 {
-    background-image: url("../images/netflix.jpg");
-    min-height: 400px;
+    max-height: 250px;
 }
 
 .service-grid-item.panel-2 {
-    background-image: url("../images/weather.jpg");
+    background-image: url("../images/netflix.jpg");
 }
 
 .service-grid-item.panel-3 {
-    background-image: url("../images/schedule.jpg");
+    background-image: url("../images/weather.jpg");
 }
 
 .service-grid-item.panel-4 {
-    background-image: url("../images/quiz.jpg");
+    background-image: url("../images/schedule.jpg");
 }
 
 .service-grid-item.panel-5 {
-    background-image: url("../images/run-buddy.PNG");
+    background-image: url("../images/quiz.jpg");
 }
+
 /**End grid**/
 
 /**Contact below**/
